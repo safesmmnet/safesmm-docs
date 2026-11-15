@@ -1,0 +1,11 @@
+site_name: SafeSMM API v2 Reference
+site_description: Request and response reference for the SafeSMM (safesmm.net) SMM panel API v2, with cURL, Python and PHP examples.
+site_author: SafeSMM (safesmm.net)
+site_url: !ENV [READTHEDOCS_CANONICAL_URL, ""]
+theme:
+  name: readthedocs
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
